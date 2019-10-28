@@ -540,6 +540,12 @@ section.form .container {
 #content2-b DIV {
   color: #c0a375;
 }
+#form2-e .mbr-section-title {
+  color: #fff;
+}
+#form2-e .mbr-section-subtitle {
+  color: #a0a0a0;
+}
 #form1-6 .form-control-label {
   color: #232323;
 }
