@@ -20,7 +20,9 @@
         "isScrollToTopButton": false,
         "isRtl": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#323232"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.4",
@@ -31,7 +33,7 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": "undefined",
-    "uniqCompNum": 15,
+    "uniqCompNum": 17,
     "versionPublish": "4.11.4"
   },
   "pages": {
@@ -115,11 +117,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/nicepng-your-logo-here-png-2468009-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/img-1105-127x128.jpeg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -599,7 +602,7 @@
           "subtitle": "Please fill out the below form &amp; we will get in touch within 24 hours",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
-            "action": "mycbwebs@gmail.com",
+            "action": "fast.rack.installers2020@gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -647,32 +650,49 @@
             "bgColor": "#2e2e2e",
             "overlay": true,
             "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/nicepng-your-logo-here-png-2468009-128x128.png",
-              "width": 128,
-              "active": true,
-              "link": "index.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
-              "size": 0
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "2955 durwood st\nhouston, tx 77093",
+              "placeId": "ChIJJ0Mfs2O3QIYRhc7pn5v9K6w",
+              "state": "ok",
+              "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<strong>Contacts</strong><br>\nEmail: support@fastrackinstallers.com<br>\nPhone: 832-902-3350<br>Phone: 832-890-7691",
-          "text3": "",
+          "text1": "<strong>Address</strong><br>2955 Durwood St<br>Houston, TX 77093<br><br><br>\n<strong>Contacts</strong><br>\nEmail: fast.rack.installers2020@gmail.com<br>\nPhone: 832.902.3350<br>Phone: 832.890.7691",
+          "text2": "",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-a"
+          "_name": "contacts2",
+          "_anchor": "contacts2-f",
+          "_styles": {
+            "DIV": {
+              "color": "#efefef"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2019 <a href=\"http://www.mycbwebs.com\">mycbwebs.com</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-g"
         }
       ]
     }
