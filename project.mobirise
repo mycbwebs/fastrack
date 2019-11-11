@@ -647,7 +647,7 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
+            "paddingTop": "0",
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
