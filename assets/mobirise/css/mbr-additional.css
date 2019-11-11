@@ -549,6 +549,13 @@ section.form .container {
 #form1-6 .form-control-label {
   color: #232323;
 }
+#header3-o .mbr-section-title,
+#header3-o .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-o .mbr-section-subtitle {
+  color: #2969b0;
+}
 #custom-html-m {
   /* Type valid CSS here */
 }
@@ -558,18 +565,6 @@ section.form .container {
   text-align: center;
 }
 #custom-html-m p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-n {
-  /* Type valid CSS here */
-}
-#custom-html-n div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-n p {
   font-size: 60px;
   color: #777;
 }
