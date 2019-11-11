@@ -549,6 +549,18 @@ section.form .container {
 #form1-6 .form-control-label {
   color: #232323;
 }
+#custom-html-m {
+  /* Type valid CSS here */
+}
+#custom-html-m div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-m p {
+  font-size: 60px;
+  color: #777;
+}
 #contacts2-f DIV {
   color: #efefef;
 }

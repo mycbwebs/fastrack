@@ -33,8 +33,9 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": "undefined",
-    "uniqCompNum": 17,
-    "versionPublish": "4.11.4"
+    "uniqCompNum": 23,
+    "versionPublish": "4.11.4",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -42,7 +43,7 @@
         "main": true,
         "title": "Home | Fast Rack Installers",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<div id=\"fb-root\"></div>\n<script async defer crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=159748584096950&autoLogAppEvents=1\"></script>",
         "footer_custom": "",
         "html_before": ""
       },
@@ -117,12 +118,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-1105-127x128.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/fastracklogo-129x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -490,7 +490,7 @@
         {
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingBottom": "4",
             "bgColor": "#000000"
           },
           "text": "<blockquote>When it comes to pallet racking and warehouse storage installation, you can count on Fast Rack Installers to get it right. You put a lot of investment in your inventory, you want it to be stored safely. We’ve been installing warehouse storage solutions for over 10 years and you can count on us to get it right the first time.</blockquote>",
@@ -504,39 +504,6 @@
               "color": "#c0a375"
             }
           }
-        },
-        {
-          "_params": {
-            "token": "16926949791.727bfe1.65e876e6295343268b05031c26ea9dbc",
-            "showTitle": true,
-            "layoutGridRadio": true,
-            "imagesPerRowGrid": 4,
-            "rows": 2,
-            "showMoreButton": true,
-            "layoutSliderRadio": false,
-            "imagesPerRowSlider": 4,
-            "spacing": 5,
-            "fullWidth": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColorRadio": true,
-            "bgColor": "#fafafa",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
-            "overlay": false,
-            "overlayColor": "#efefef",
-            "overlayOpacity": 0.6
-          },
-          "title": "LET'S CONNECT",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
-          "display2": "display-2",
-          "display4": "display-4",
-          "alias": "instagram-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-c"
         },
         {
           "_styles": {
@@ -638,6 +605,22 @@
               "color": "#232323"
             }
           }
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "[JS_CODE_0]<div class=\"powr-facebook-feed\" id=\"c7d0bdeb_1573493331\"></div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-m",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://www.powr.io/powr.js?platform=html\"></script>"
+          ]
         },
         {
           "_params": {
