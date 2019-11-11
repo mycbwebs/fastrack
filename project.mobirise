@@ -33,7 +33,7 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": "undefined",
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "4.11.4",
     "screenshot": "screenshot.png"
   },
@@ -44,7 +44,7 @@
         "title": "Home | Fast Rack Installers",
         "meta_descr": "",
         "header_custom": "<div id=\"fb-root\"></div>\n<script async defer crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=159748584096950&autoLogAppEvents=1\"></script>",
-        "footer_custom": "",
+        "footer_custom": "<div id=\"fb-root\"></div>\n<script async defer crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=159748584096950&autoLogAppEvents=1\"></script>",
         "html_before": ""
       },
       "components": [
@@ -621,6 +621,20 @@
           "_JSplaceholders": [
             "<script src=\"https://www.powr.io/powr.js?platform=html\"></script>"
           ]
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div class=\"fb-page\" data-href=\"https://www.facebook.com/FAST-RACK-Installers-105220357600078/\" data-tabs=\"timeline\" data-width=\"500\" data-height=\"\" data-small-header=\"false\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\"><blockquote cite=\"https://www.facebook.com/FAST-RACK-Installers-105220357600078/\" class=\"fb-xfbml-parse-ignore\"><a href=\"https://www.facebook.com/FAST-RACK-Installers-105220357600078/\">FAST RACK Installers</a></blockquote></div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-n",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_params": {
